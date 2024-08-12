@@ -18,4 +18,3 @@
 | Linux 命令行与 Shell 脚本编程（WIP） | 文档 | - [Linux 命令行与 Shell 脚本编程（WIP）](https://archlinuxstudio.github.io/ShellTutorial/#/)                                                                                                                             | ✨✨             |
 | 细说 Linux                   | 视频 | - [细说 Linux （兄弟连教程）](https://www.bilibili.com/video/BV1mW411i7Qf/)                                                                                                                                             | ✨✨✨✨✨          |
 
-

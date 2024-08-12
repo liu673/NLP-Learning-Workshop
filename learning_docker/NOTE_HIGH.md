@@ -1,24 +1,17 @@
-
 # 一起学Docker（Part-2）
 
-目录
-- [Dockerfile](#Dockerfile)  
-  - [概念 & 流程](#概念-流程)
-  - [指令](#指令)
-  - [构建过程](#构建)
-  - [运行容器](#运行)
-- [Docker Network](#Docker-Network)
-  - [网络模式](#网络模式)
-     - [bridge模式](#bridge)
-     - [host模式](#host) 
-     - [none模式](#none)
-     - [container模式](#container)
-     - [自定义网络](#自定义网络)
-- [Docker Compose](#Docker-Compose)
-  - [概念 & 流程](#概念-流程-1)
-  - [常用指令](#常用命令)
-- [Portainer](#Portainer)
-- [Docker 监控](#Docker-监控)
+| List                              | SubDirectory                                                 | Description                                                  | Notes |
+| --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
+| [Dockerfile](#Dockerfile)         |                                                              | Dockerfile是用来构建Docker镜像的文本文件，是由一条条构建镜像所需的指令和参数构成的脚本 |       |
+|                                   | - [**概念 & 流程**](#概念-流程)<br />- [**指令**](#指令)<br />- [**构建过程**](#构建)<br />- [**运行容器**](#运行) |                                                              |       |
+| [Docker Network](#Docker-Network) |                                                              | 容器间的互联和通信以及端口映射                               |       |
+|                                   | - [网络模式](#网络模式)<br />----   [bridge模式](#bridge) 、[host模式](#host)、 [none模式](#none)<br />----  [container模式](#container) 、[自定义网络](#自定义网络) |                                                              |       |
+| [Docker Compose](#Docker-Compose) |                                                              | Docker-Compose是Docker官方的开源项目，负责实现对Docker容器集群的快速编排。 |       |
+|                                   | - [**概念 & 流程**](#概念-流程-1)<br />- [**常用指令**](#常用命令) |                                                              |       |
+| [Portainer](#Portainer)           |                                                              | Docker 管理界面，提供状态显示面板、应用模板快速部署、容器镜像网络数据卷的基本操作 |       |
+| [Docker 监控工具](#Docker-监控)   |                                                              |                                                              |       |
+
+
 
 
 # Dockerfile
