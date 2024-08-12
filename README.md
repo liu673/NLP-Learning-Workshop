@@ -33,7 +33,6 @@ NLP共学坊（NLP Learning Workshop）是一个帮助初学者和有经验的�
 
 
 ## 📝 协议
-This project is [MIT](https://github.com/liu673/NLP-Learning-Workshop/blob/main/LICENSE) licensed.
 
 这个项目基于 [MIT](https://github.com/liu673/NLP-Learning-Workshop/blob/main/LICENSE) 协议，请自由地享受和参与开源。
 
