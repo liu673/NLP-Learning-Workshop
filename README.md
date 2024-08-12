@@ -1,5 +1,5 @@
 
-# NLP Learning Workshop 
+# NLP Learning Workshop 🏗
 
 NLP共学坊（NLP Learning Workshop）是一个帮助初学者和有经验的开发人员掌握自然语言处理（NLP）工程师所需的工程技能点的项目。Let's Learn NLP Skills for Programmers Together.
 
@@ -16,8 +16,26 @@ NLP共学坊（NLP Learning Workshop）是一个帮助初学者和有经验的�
 - [Learn Docker](./learning_docker)：Docker学习，掌握重要概念以及常用命令，能够实现Dockerfile、DockerCompose
 
 
+## TODO
+- [ ] 添加关于数据库的学习
+- [ ] 添加关于NLP的高数学习
+- [ ] 添加关于机器学习的学习
+- [ ] 添加关于算法的学习
+- [ ] 添加更多NLP技能点
+- [ ] ....
 
 
+## 🤝 贡献与支持
+
+非常欢迎你的加入！提一个 [Issue](https://github.com/liu673/NLP-Learning-Workshop/issues/new) 或者提交一个 Pull Request。
+
+如果这个项目对你有帮助，请在右上角给它一个 ⭐️，感谢你的支持！
+
+
+## 📝 协议
+This project is [MIT](https://github.com/liu673/NLP-Learning-Workshop/blob/main/LICENSE) licensed.
+
+这个项目基于 [MIT](https://github.com/liu673/NLP-Learning-Workshop/blob/main/LICENSE) 协议，请自由地享受和参与开源。
 
 
 
