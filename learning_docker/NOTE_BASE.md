@@ -1,6 +1,20 @@
+# 一起学习Docker
 
-## 镜像
-### 命令参数
+
+
+| List                                  | SubDirectory                                                 | Description | **Notes** |
+| ------------------------------------- | ------------------------------------------------------------ | ----------- | --------- |
+| [镜像](#镜像)                         |                                                              |             |           |
+|                                       | - [基本命令](#基本命令)<br />- [本地镜像](#本地镜像)<br />- [阿里云Docker Registry](#阿里云Docker Registry)<br />- [私服Docker Registry](#私服Docker Registry) |             |           |
+| [容器](#容器)                         | - [基本命令](#基本命令-2)                                    |             |           |
+| [容器卷（数据卷）](#容器卷（数据卷）) | - [基本命令](#基本命令-3)                                    |             |           |
+
+
+
+# 镜像
+
+## 基本命令
+
 ```shell
 docker search <image_name> # 搜索镜像
 docker pull <image_name> # 下载镜像
@@ -16,7 +30,10 @@ docker rmi <image_id> # 删除镜像
 docker rmi -f $(docker images -q) # 删除所有镜像
 docker rmi -f <image_id1> <image_id2> # 删除多个镜像
 ```
+## 本地镜像
+
 将容器提交为本地镜像（本地镜像生产）
+
 ```shell
 docker commit -m="description" -a="author" <container_id> <image_name>:<tag> # 提交容器为镜像
 example:
@@ -24,6 +41,8 @@ example:
    apt-get update
    apt-get -y install vim 
 ```
+## 阿里云Docker Registry
+
 将镜像提交到阿里云Docker Registry \
 （aliyun.com -> 控制台 -> 容器镜像服务）
 
@@ -36,7 +55,8 @@ docker push registry.cn-hangzhou.aliyuncs.com/jensen_docker_test/my_docker:[镜�
 
 docker pull registry.cn-hangzhou.aliyuncs.com/jensen_docker_test/my_docker:[镜像版本号]
 ```
-私服Docker Registry
+## 私服Docker Registry
+
 ```shell
 docker pull registry
 
@@ -76,9 +96,9 @@ example:
 Invoke-WebRequest -Uri http://127.0.0.1:5000/v2/_catalog -Method GET # 192.168.96.1
 ```
 
+# 容器
 
-## 容器
-### 命令参数
+## 基本命令
 ![img.png](images%2Fimg.png)
 ```shell
 docker run 
@@ -90,13 +110,14 @@ docker run
 
 docker run -it ubuntu bash
 ```
-列出所有运行的容器实例
+**列出所有运行的容器实例**
+
 ```shell
 docker ps
 docker ps -a
 docker ps -a -q
 ```
-退出容器
+**退出容器**
 
 ```shell
 exit # 退出容器
@@ -104,7 +125,7 @@ exit # 退出容器
 control + p + q  # 退出容器，不停止
 ```
 
-启动已停止的容器
+**启动已停止的容器**
 
 ```shell
 docker start <container_id or container_name>  # 启动容器
@@ -118,7 +139,8 @@ docker rm <container_id or container_name>  # 删除容器
 docker kill <container_id or container_name>  # 强制停止容器
 docker rm -f <container_id or container_name>  # 强制删除容器
 ```
-查看容器信息
+**查看容器信息**
+
 ```shell
 docker logs <container_id or container_name> # 查看容器日志
 
@@ -127,7 +149,8 @@ docker top <container_id> # 查看容器进程
 docker inspect <container_id> # 查看容器详细信息
 
 ```
-重新进入没有停止的容器
+**重新进入没有停止的容器**
+
 ```shell
 # exec 重新进入容器,用exit退出不会停止容器
 docker exec 
@@ -137,7 +160,8 @@ docker exec
 docker attach 
   -it <container_id or container_name> bash #  进入容器
 ```
-拷贝容器文件到本地
+**拷贝容器文件到本地**
+
 ```shell
 docker cp <container_id or container_name>:<container_path> <local_path> # 从容器复制文件到本地
 docker cp <local_path> <container_id or container_name>:<container_path> # 从本地复制文件到容器
@@ -149,8 +173,11 @@ cat <file_name>.tar | docker import - <image_name> # 导入容器
 ```
 
 # 容器卷（数据卷）
-将docker容器中的文件挂载到本地
-## 命令参数
+
+**将docker容器中的文件挂载到本地**
+
+## 基本命令
+
 ```shell
 docker run -it -v <local_path>:<container_path> <image_name>:<tag>
   -v  # 表示挂载一个数据卷
@@ -166,7 +193,6 @@ docker run -it --privileged=true -v <local_path>:<container_path>:<rw|ro> <image
 # 继承、共享容器卷
 docker run -it --privileged=true --volumes-from <父类 container_name> --name <子类 container_name> <image_name>:<tag>
 ```
-
 
 
 
