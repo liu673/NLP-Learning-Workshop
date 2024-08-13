@@ -1,5 +1,14 @@
 #  一起学Git
 
+| List         | SubDirectory                                                                                                                                              | Description | Notes |
+| ------------ |-----------------------------------------------------------------------------------------------------------------------------------------------------------| ----------- | ----- |
+| 配置忽略文件 |                                                                                                                                                           |             |       |
+|              | - [**为单个仓库配置忽略的文件**](#为单个仓库配置忽略的文件)<br />- [**为计算机上的所有存储库配置忽略的文件**](#为计算机上的所有存储库配置忽略的文件)<br />- [**排除本地文件而不创建 .gitignore 文件**](#排除本地文件而不创建-.gitignore 文件) |             |       |
+| IDEA         |                                                                                                                                                           |             |       |
+|              | - [**IDEA集成Git**](#IDEA集成Git)<br />- [**步骤**](#步骤)<br />- [**分支管理**](#分支管理)<br />- [**GitHub生成Token**](#GitHub生成Token)                                    |             |       |
+
+
+
 # 配置忽略文件
 
 > 问题1：为什么要忽略他们?
@@ -108,7 +117,7 @@ settings -> Version Control -> Git -> Git executable -> your_path\Program Files\
 
   ![img_16.png](images%2Fimg_16.png)
 
-## GitHub设置
+## GitHub生成Token
 
 **现在账号密码登录比较难，需时刻全局科学，因此，本方法只展示设置Token登录**
 
@@ -117,7 +126,6 @@ setting -> Version Control -> GitHub -> 点击 + -> Log into Github Enterprise -
 
 生成Token的方法：
 Github settings -> Developer Settings -> Personal access tokens -> Generate new token -> 勾选repo -> 点击Generate token
-
 
 
 
