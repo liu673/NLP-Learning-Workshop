@@ -13,6 +13,7 @@ NLP共学坊（NLP Learning Workshop）是一个帮助初学者和有经验的�
 ### 工程技能点
 
 - [Learn Linux](./learning_linux)：Linux的基础知识，掌握Linux的基础知识，能够实现Linux命令行操作，编写Shell脚本
+- [Learn Git](./learning_git)：Git的基础知识，掌握Git的相关操作，实现Terminal下的Git操作、IDE与Git（GitHub）的操作，少概念多工程
 - [Learn Docker](./learning_docker)：Docker学习，掌握重要概念以及常用命令，能够实现Dockerfile、DockerCompose
 
 
