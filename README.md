@@ -16,6 +16,9 @@ NLP共学坊（NLP Learning Workshop）是一个帮助初学者和有经验的�
 - [Learn Git](./learning_git)：Git的基础知识，掌握Git的相关操作，实现Terminal下的Git操作、IDEA（Pycharm）与Git（GitHub）的操作，少概念多工程
 - [Learn Docker](./learning_docker)：Docker学习，掌握重要概念以及常用命令，能够实现Dockerfile、DockerCompose
 
+### 算法学习
+- [Learn LeetCode](./learning_leetcode)：LeetCode学习，掌握LeetCode上的算法题，能够实现算法题的解题各种思路，整个过程从基础到进阶思路
+
 
 ## TODO
 - [ ] 添加关于数据库的学习
