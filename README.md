@@ -15,7 +15,7 @@ NLP共学坊（NLP Learning Workshop）是一个帮助初学者和有经验的�
 - [Learn Linux](./learning_linux)：Linux的基础知识，掌握Linux的基础知识，能够实现Linux命令行操作，编写Shell脚本
 - [Learn Git](./learning_git)：Git的基础知识，掌握Git的相关操作，实现Terminal下的Git操作、IDEA（Pycharm）与Git（GitHub）的操作，少概念多工程
 - [Learn Docker](./learning_docker)：Docker学习，掌握重要概念以及常用命令，能够实现Dockerfile、DockerCompose
-- [Learn Pytorch](./learning_pytorch)：Pytorch学习，掌握Pytorch的使用，能够实现Pytorch的基本操作，能够实现Pytorch的神经网络模型
+- [Learn Pytorch](./learning_pytorch)：Pytorch学习，掌握Pytorch的使用，能够实现Pytorch的相关操作，掌握Pytorch模型的训练、测试、部署等
 
 
 ### 算法学习
