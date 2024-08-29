@@ -1,0 +1,14 @@
+/* styles.css */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 1;
+  text-align: right;
+}
