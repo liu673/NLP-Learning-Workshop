@@ -13,9 +13,12 @@
 - 由于课程内容时长较长，在基本的概念以及代码上，你需要多去练习
 - 课程视频只有前5章的内容，在第三章开始就在讲解Computer Vision的内容（CNN、VGG等），此部分，如果你学习NLP的话，可以只看视频，学学代码技巧即可，Code看个人
 - 后面的几章内容，看[GitHub](https://github.com/mrdbourke/pytorch-deep-learning)上相关的代码或者在[本章代码](./src)中看相关部分也可。
-- Learn Pytorch Book: https://www.learnpytorch.io/
+  - 着重去看 **Learn Pytorch Book: https://www.learnpytorch.io/**
+- 看完以上内容之后，你对Pytorch已经掌握了七七八八，接下来重点就是要不断地结合算法、官方文档来不断提升自己的Pytorch水平。
 
-
+> 没有一口气能吃成一个Pytorch工程师，需要不断学习，不断练习，不断提升。
+> 
+> 做一个长期主义者！Just do it!
 ### PyTorch documentation 
 PyTorch官方文档：https://pytorch.org/docs/stable/index.html
 需要常看，里面的内容非常详细，可以作为参考。
