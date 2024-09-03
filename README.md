@@ -22,6 +22,9 @@ NLP共学坊（NLP Learning Workshop）是一个帮助初学者和有经验的�
 ### 算法学习
 - [Learn LeetCode](./learning_leetcode)：LeetCode学习，掌握LeetCode上的算法题，能够实现算法题的解题各种思路，整个过程从基础到进阶思路
 
+### NLP学习
+- [Learn Word Embedding](./learning_word-embedding)： 词嵌入的学习，掌握词嵌入的相关概念，了解各个词嵌入，实现词嵌入算法
+
 
 ## TODO
 - [ ] 添加关于数据库的学习
