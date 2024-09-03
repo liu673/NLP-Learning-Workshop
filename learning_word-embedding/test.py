@@ -227,3 +227,4 @@ print("N-gram".center(40, "-"))
 # for sentence, char_ngrams in zip(corpus, char_ngram_corpus):
 #     print(f"句子: '{sentence.strip()}'")
 #     print(f"字符级别的 N-gram (n={char_n}): {char_ngrams}\n")
+
