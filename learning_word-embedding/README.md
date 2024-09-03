@@ -19,6 +19,8 @@
 
 <img src=\"./images/img_1.png\" alt=\"Image\" style=\"display: block; margin-left: auto; margin-right: auto; width: 500px;\">
 
+![Image](images/img_1.png "Image" { style="display:block; margin:auto; width:400px;" })
+
 ## 词嵌入的种类
 ### 离散表示
 文本向量化离散表示是一种基于规则和统计的向量化方式，常用的方法包括 词集模型 和 词袋模型， 都是基于词之间保持独立性、没有关联为前提，将所有文本中单词形成一个字典，然后根据字典来统计单词出现频数
@@ -34,6 +36,8 @@
 离散表示虽然能够进行词语或者文本的向量表示，进而用模型进行情感分析或者是文本分类之类的任务。 但其不能表示词语间的相似程度或者词语间的类比关系。
 
 <img src=\"./images/img_2.png\" alt=\"Image\" style=\"display: block; margin-left: auto; margin-right: auto; width: 400px;\">
+
+![Image](images/img_2.png "Image" { style="display:block; margin:auto; width:400px;" })
 
 >比如：queen 和 king 两个词语，它们表达相近的意思，所以希望它们在整个文本的表示空间内挨得很近。
 一般认为，词向量、文本向量之间的夹角越小，两个词相似度越高，词向量、文本向量之间夹角的关系用下面的余弦夹角进行表示:
