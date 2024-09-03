@@ -3,7 +3,6 @@
 
 在 Pycharm 专业版中使用 jupyter notebook
 
-
 1. 按照正常的创建项目环境的步骤创建一个项目，选择你想要的环境
 2. 在Terminal中输入以下命令，启动`jupyter notebook`
     ```shell
