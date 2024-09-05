@@ -8,6 +8,8 @@
     ```shell
    jupyter notebook
    # jupyter notebook --no-browser
+   # 在jupyter notebook 默认设置文件中即 jupyter_notebook_config.py 文件 
+   #     c.NotebookApp.notebook_dir = 'your_path_to_notebook_project'
    ```
    以上命令会在浏览器中打开一个jupyter notebook的页面，选择一个文件夹，即可在浏览器中打开一个jupyter notebook的页面
 3. 复制执行命令时，复制 `copy and paste one of these URLs:`下的链接其中一个
@@ -27,7 +29,7 @@
     passwd()
    # 输入两次密码之后，会得到一个加密后的密码，复制下来
    ```
-   找到并修改c.NotebookApp.password = ''，将加密后的密码粘贴进去
+   找到并修改`c.NotebookApp.password = ''`，将加密后的密码粘贴进去
 7. jupyter notebook 项目使用本地的Python环境，由于本地使用的是conda 环境，所以在terminal中执行以下命令
    ```shell
    python -m ipykernel install --user --name=myenv
