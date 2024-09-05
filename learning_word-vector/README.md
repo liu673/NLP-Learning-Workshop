@@ -1,7 +1,7 @@
 
-# 一起学习 Word Embedding
+# 一起学习 Word Vector
 
-本章一起学习词嵌入，掌握词嵌入的相关概念，了解各个词嵌入，实现词嵌入算法
+本章一起学习文本向量化，掌握文本向量的相关概念，了解各个文本向量，实现文本向量的算法
 
 <img src="images/img_8.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;">
 
