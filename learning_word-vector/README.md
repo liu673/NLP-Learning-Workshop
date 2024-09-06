@@ -18,7 +18,8 @@
 ## 文本向量化
 
 文本向量化又称为 “词向量模型”、“向量空间模型”，即将文本表示成计算机可识别的实数向量， 根据粒度大小不同，可将文本特征表示分为字、词、句子、篇章几个层次
-文本向量化方法一般称为词嵌入(word embedding)方法，词嵌入这个说法很形象，就是把文本中的词嵌入到文本空间中， 用一个向量来表示词
+
+文本向量化方法一般称为词嵌入(word embedding)方法，词嵌入这个说法很形象，就是把文本中的词嵌入到文本空间中， 用一个向量来表示词（将各个单词表示为预定义向量空间中的实值向量）
 
 ![Image](images/img_1.png "Image")
 
@@ -53,6 +54,7 @@ $\cos\theta = \frac{\vec{A} \cdot \vec{B}}{|\vec{A}| \cdot |\vec{B}|}$
 
 
 ## 其他资源
+- [词向量发展历程：技术及实战案例](https://mp.weixin.qq.com/s/nLfeTAlX7C1zfRC7JEPTaQ)
 - [NLP–文本向量化](https://deeplearning-doc.readthedocs.io/en/latest/deeplearning/NLP/NLP-text-vector.html#co-currence-matrix)
 - [AI文本处理的突破：从One-Hot到Embedding模型](https://www.53ai.com/news/qianyanjishu/2024060576385.html)
 - [词表示](https://paddlepedia.readthedocs.io/en/latest/tutorials/sequence_model/word_representation/index.html)
