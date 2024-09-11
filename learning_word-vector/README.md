@@ -3,10 +3,15 @@
 
 本章一起学习文本向量化，掌握文本向量的相关概念，了解各个文本向量，实现文本向量的算法
 
-<img src="images/img_8.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;">
+<img src="images/img_17.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;"> 
 
+<!-- 这里是一个空白行 -->
 
-纸上得来终觉浅，绝知此事要躬行。 《[冬夜读书示子聿](https://www.gushiwen.cn/mingju/juv_bc2e9eb921c8.aspx)》
+<div style="text-align: center;">
+  纸上得来终觉浅，绝知此事要躬行。<br>
+  <small><a href="https://www.gushiwen.cn/mingju/juv_bc2e9eb921c8.aspx">《冬夜读书示子聿》</a></small>
+</div>
+
 
 ## 目录
 - [文本向量化](#文本向量化)
@@ -22,7 +27,9 @@
 
 文本向量化方法一般称为词嵌入(word embedding)方法，词嵌入这个说法很形象，就是把文本中的词嵌入到文本空间中， 用一个向量来表示词（将各个单词表示为预定义向量空间中的实值向量）
 
-![Image](images/img_1.png "Image")
+[//]: # (![Image]&#40;images/img_1.png "Image"&#41;)
+<img src="images/img_1.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;"> 
+
 
 ## 词嵌入的种类
 ### 离散表示
