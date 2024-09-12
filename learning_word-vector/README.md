@@ -5,7 +5,6 @@
 
 <img src="images/img_17.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;"> 
 
-<!-- 这里是一个空白行 -->
 
 <div style="text-align: center;">
   纸上得来终觉浅，绝知此事要躬行。<br>
@@ -53,7 +52,8 @@
 通过训练将每个词映射成 K 维实数向量(K 一般为模型中的超参数)， 通过词之间的距离(如，consine 相似度、欧氏距离) 来判断它们之间的语义相似度。
 
 
-![Image](images/img_2.png "Image")
+[//]: # (![Image]&#40;images/img_2.png "Image"&#41;)
+<img src="images/img_2.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;">
 
 >比如：queen 和 king 两个词语，它们表达相近的意思，所以希望它们在整个文本的表示空间内挨得很近。
 一般认为，词向量、文本向量之间的夹角越小，两个词相似度越高，词向量、文本向量之间夹角的关系用下面的余弦夹角进行表示:
@@ -85,7 +85,9 @@ $\cos\theta = \frac{\vec{A} \cdot \vec{B}}{|\vec{A}| \cdot |\vec{B}|}$
 > `{"I like","like deep","deep learning","like NLP","I enjoy","enjoy flying","I like"}`
 > 
 > 我们可以得到一个共现矩阵(对称矩阵)：
-> ![img_9.png](images%2Fimg_9.png)
+
+[//]: # (> ![img_9.png]&#40;images%2Fimg_9.png&#41;)
+> <img src="images/img_9.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;">
 > 
 > 中间的每个格子表示的是行和列组成的词组在词典中共同出现的次数，也就体现了共现的特性。
 > 
@@ -100,15 +102,21 @@ $\cos\theta = \frac{\vec{A} \cdot \vec{B}}{|\vec{A}| \cdot |\vec{B}|}$
 > NNLM (Neural Network Language model)，神经网络语言模型是03年提出来的，通过训练得到中间产物--词向量矩阵，这就是我们要得到的文本表示向量矩阵。
 > 
 > NNLM说的是定义一个前向窗口大小，其实和上面提到的窗口是一个意思。把这个窗口中最后一个词当做y，把之前的词当做输入x，通俗来说就是预测这个窗口中最后一个词出现概率的模型。
-> ![img_10.png](images%2Fimg_10.png)
+>
+> [//]: # (> ![img_10.png]&#40;images%2Fimg_10.png&#41;)
+> <img src="images/img_10.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;">
 > 
 > NNLM的网络结构图
-> ![img_11.png](images%2Fimg_11.png)
+>
+> [//]: # (> ![img_11.png]&#40;images%2Fimg_11.png&#41;)
+> <img src="images/img_11.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;">
 > 
 > - input层是一个前向词的输入，是经过one-hot编码的词向量表示形式，具有V*1的矩阵。
 > 
 > - C矩阵是投影矩阵，也就是稠密词向量表示，在神经网络中是w参数矩阵，该矩阵的大小为D*V，正好与input层进行全连接(相乘)得到D*1的矩阵，采用线性映射将one-hot表示投影到稠密D维表示。
->   ![img_12.png](images%2Fimg_12.png)
+>
+> [//]: # (>   ![img_12.png]&#40;images%2Fimg_12.png&#41;)
+> <img src="images/img_12.png" alt="Image" style="display: block; margin-left: auto; margin-right: auto; width: 500px;">
 > - output层(softmax)自然是前向窗中需要预测的词。
 > 
 > - 通过BP＋SGD得到最优的C投影矩阵，这就是NNLM的中间产物，也是我们所求的文本表示矩阵，通过NNLM将稀疏矩阵投影到稠密向量矩阵中。
