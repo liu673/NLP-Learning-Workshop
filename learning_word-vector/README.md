@@ -136,5 +136,6 @@ $\cos\theta = \frac{\vec{A} \cdot \vec{B}}{|\vec{A}| \cdot |\vec{B}|}$
 - [NLP-Tutorial: word embedding✨](https://github.com/shibing624/nlp-tutorial/blob/main/01_word_embedding/01_%E6%96%87%E6%9C%AC%E8%A1%A8%E7%A4%BA.ipynb)
 - [Chinese-word-embedding ✨](https://github.com/duanmuxiangyu/Chinese-word-embedding)
 - [Word Embedding using GloVe | Feature Extraction | NLP | Python](https://www.hackersrealm.net/post/word-embedding-using-glove-python)
-  - [CODE ✨](https://github.com/aswintechguy/Data-Science-Concepts/blob/main/NLP/Natural%20Language%20Processing(NLP)%20Concepts%20-%20Hackers%20Realm.ipynb) 
+  - [CODE ✨](https://github.com/aswintechguy/Data-Science-Concepts/blob/main/NLP/Natural%20Language%20Processing(NLP)%20Concepts%20-%20Hackers%20Realm.ipynb)
+- [Word-Embedding(TF): Word2vec，Fasttext，Glove，Elmo，Bert and Flair pre-train Word Embedding](https://github.com/zlsdu/Word-Embedding)
 
